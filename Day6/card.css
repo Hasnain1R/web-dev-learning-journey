@@ -1,0 +1,41 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.card {
+    width: 300px;
+    background: #fff;
+    position: relative;
+    margin: 40px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #ff5e57;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    background: #ff5e57;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff3b30;
+}
